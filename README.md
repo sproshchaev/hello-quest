@@ -4,7 +4,7 @@
 Простой текстовый квест на Java с использованием сервлетов, JSP и JSTL.
 
 ## Технологии
-- Java 11
+- Java 17
 - Maven
 - Servlet API 4.0
 - JSP 2.3
@@ -88,7 +88,7 @@ HelloQuest/
 │       │       └── web.xml           # Дескриптор развертывания
 │       └── resources/
 ├── pom.xml                           # Конфигурация Maven
-└── README.md                         # Эта инструкция
+└── README.md                         
 ```
 
 ## Как играть
