@@ -91,6 +91,19 @@ HelloQuest/
 └── README.md                         
 ```
 
+## Запуск тестов
+```bash 
+# Запуск всех тестов
+mvn test
+
+# Запуск с очисткой проекта
+mvn clean test
+
+# Запуск конкретного тестового класса
+mvn test -Dtest=GameServletTest
+```
+
+
 ## Как играть
 
 1. **Начало игры:** Откройте http://localhost:8080/HelloQuest/hello
